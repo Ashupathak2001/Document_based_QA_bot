@@ -1,0 +1,4 @@
+gienv
+.streamlit
+__pycache__
+.env
