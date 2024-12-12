@@ -5,3 +5,4 @@ flask
 cohere
 pyPDF2
 faiss-cpu
+python-dotenv

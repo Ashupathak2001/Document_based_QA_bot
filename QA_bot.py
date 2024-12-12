@@ -2,7 +2,14 @@
 import streamlit as st
 import tempfile
 import os
+import sys
+
+# Add current directory to path
+project_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, project_dir)
+import server
 from server import RAGModel
+
 
 def init_rag_model():
     """Initialize the RAG model with API keys."""
