@@ -10,7 +10,7 @@ def init_rag_model():
     return RAGModel(cohere_api_key=cohere_api_key)
 
 def main():
-    st.title("Document Q&A Bot")
+    st.title("RAG Based Document Q&A Bot")
     
     # Initialize session state
     if 'rag_model' not in st.session_state:
