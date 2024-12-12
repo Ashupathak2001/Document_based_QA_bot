@@ -4,4 +4,4 @@ transformers
 flask
 cohere
 pyPDF2
-faiss
+faiss-cpu
