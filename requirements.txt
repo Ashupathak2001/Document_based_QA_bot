@@ -1,8 +1,9 @@
 streamlit
+cohere
+python-dotenv
+sentence-transformers
+numpy
+faiss-cpu
+PyPDF2
 torch
 transformers
-flask
-cohere
-pyPDF2
-faiss-cpu
-python-dotenv
