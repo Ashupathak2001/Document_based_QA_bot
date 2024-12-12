@@ -2,3 +2,6 @@ streamlit
 torch
 transformers
 flask
+cohere
+pyPDF2
+faiss
